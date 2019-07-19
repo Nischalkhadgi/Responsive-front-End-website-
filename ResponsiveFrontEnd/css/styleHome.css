@@ -1,0 +1,179 @@
+/*   Header Slider   */
+
+#item1 {
+  background-image: url("../img/slider/1.jpg");
+  height: 700px;
+}
+
+
+#item2{
+   height: 700px;
+}
+
+#item2 video{
+  width: 1343px;
+  height: 755px;
+  top: -41.5px
+}
+
+#item2 .bs-slider-overlay{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+#item3 {
+  background-image: url("../img/slider/2.jpg");
+  height: 700px;
+}
+
+.bg-parallax {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: 100;
+}
+
+/*   Hide All Text Animation From Slider     */
+
+.slide-text {
+  display: none;
+}
+
+
+/*   Left and Right indicator Change     */
+
+.fa-angle-left {
+  top: 7.5px;
+  left: 18px !important;
+}
+
+.fa-angle-right {
+  top: 7.5px;
+  right: 18px !important;
+}
+
+
+
+
+
+
+/*  Slider Text Changes  */
+/* Adding Text Animation in Slide 1 */
+.text-outer{
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.text-inner{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#slide1-top-anim{
+    color: #EEE;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.15);
+    font-size: 64px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1;
+    margin-top: 80px;
+    font-family: 'Raleway', sans-serif;
+
+    animation-delay: .4s;
+    animation-duration: 1s;
+}
+
+#slide1-bottom-anim{
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    color: #EEE;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.15);
+    font-weight: 300;
+
+    animation-delay: .6s;
+    animation-duration: 1s;
+}
+
+
+
+
+/* Adding Text Animation in Slide 2*/
+
+video{
+  float:left;
+}
+
+.text-outer2{
+    position: absolute;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.text-inner2{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#slide2-top-anim{
+    color: #EEE;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.15);
+    font-size: 64px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1;
+    margin-top: 80px;
+    font-family: 'Raleway', sans-serif;
+    animation-delay: .4s;
+    animation-duration: 1s;
+}
+
+#slide2-bottom-anim{
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    color: #EEE;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.15);
+    font-weight: 300;
+    animation-delay: .6s;
+    animation-duration: 1s;
+}
+
+
+
+
+
+/* Adding Text Animation in Slide 3*/
+#slide3-top-anim{
+    color: #EEE;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.15);
+    font-size: 64px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1;
+    margin-top: 80px;
+    font-family: 'Raleway', sans-serif;
+
+    animation-delay: .4s;
+    animation-duration: 1s;
+}
+
+#slide3-bottom-anim{
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    color: #EEE;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.15);
+    font-weight: 300;
+
+    animation-delay: .6s;
+    animation-duration: 1s;
+}

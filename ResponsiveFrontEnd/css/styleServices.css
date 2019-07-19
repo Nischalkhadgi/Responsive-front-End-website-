@@ -1,0 +1,95 @@
+/*  Services header  */
+
+#services-header h2 {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+}
+
+#services-header h3 {
+  font-size: 22px;
+  font-weight: 300;
+  color: #777;
+  font-family: 'Lato', sans-serif;
+}
+
+#services-header .bottom-line {
+  width: 40px;
+  height: 2px;
+  margin: 25px auto 35px auto;
+  background-color: #1ABC9C;
+}
+
+
+/* Services Contents  */
+
+.services-item .fa-icon {
+  height: 75px;
+  /*  75px is the size that makes font-awesome icon in the middle  */
+  width: 75px;
+  float: left;
+  /* so the content can go to right side */
+  background-color: #1ABC9C;
+  color: #fff;
+  padding: 15px;
+  border-radius: 50px;
+  /* To make shape to circle  */
+  margin-right: 25px;
+}
+
+
+/*  It includes all the 9 items  */
+
+.services-item {
+  padding: 20px 0 30px 0;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.services-item h4 {
+  color: #333;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+}
+
+.services-item p {
+  color: #333;
+  text-align: left;
+  color: #64707b;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
+  padding-left: 100px;
+}
+
+
+/*  Hover effect  */
+.services-item:hover  .fa-icon{
+    box-shadow: 0 0 0 3px #fff,0 0 0 6px #1ABC9C;
+}
+
+.fa-icon{
+  transition-property: box-shadow;
+  transition-duration: .4s;
+}
+
+
+/* Changes on some icon to make it center */
+
+.fa-heart, .fa-lightbulb-o, .fa-tint{
+  margin-top: 3px;
+}
+
+
+#services{
+    padding: 50px 0 30px 0;
+    background-color: #fff;
+}

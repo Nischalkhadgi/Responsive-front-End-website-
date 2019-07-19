@@ -1,0 +1,156 @@
+#team{
+    padding: 40px 0;
+}
+
+/*  Header Contents  */
+#team-header h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #333;
+  line-height: 1.5;
+  font-family: 'Raleway', sans-serif;
+}
+
+#team-header p {
+  font-size: 22px;
+  line-height: 1;
+  font-weight: 300;
+  color: #777;
+  font-family: 'Lato', sans-serif;
+}
+
+
+
+#team .bottom-line{
+    width: 38px;
+    height: 2px;
+    margin: 30px auto 0px auto;
+    background-color: #1ABC9C;
+}
+
+
+/*   Team Bottom Contents   */
+
+/*  Giving a margin to contents below bottom-line  */
+
+#team .col-md-6{
+  margin-top: 50px;
+}
+
+
+.team-right-content h2{
+    margin: 0;
+    font-size: 19px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    line-height: 1.5;
+    font-family: 'Raleway', sans-serif;
+    color: #444;
+}
+
+.team-right-content h5{
+    color: #1ABC9C;
+    font-weight: 400;
+    font-family: 'Crete Round', serif;
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 5px;
+    line-height: 1.5;
+}
+
+.team-right-content p{
+    margin-top: 15px;
+    color: #777;
+    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
+}
+
+
+#team .social-icons{
+  /* by default there is some padding in unorderedlist so padding is set to 0 to remove that */
+   padding:0;
+   list-style: none;
+
+}
+
+#team .social-icons li{
+   vertical-align: top;
+   display: inline;
+   height: 100px;
+}
+
+#team .social-icons a {
+    color: #333;
+    text-decoration: none;
+}
+
+
+
+
+/*  Making the Image to left side and other related content to the riht  */
+
+.team-left-content{
+    float: left;
+    width: 250px;
+    padding-left: 13px;
+}
+
+
+.team-right-content{
+    float: right;
+    width: 265px;
+}
+
+
+
+
+/*  Social Icons changes   */
+#team .fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;         /* Opera */
+    -ms-transition:.5s;        /* Microsoft */
+    -moz-transition:.5s;      /* Mozilla */
+    -webkit-transition:.5s;   /* Safari */
+    transition: .5s;
+    border: 1px solid #3d5b99;     /* border-width   border-style (required)  border-color*/
+    color: #3d5b99;
+    font-size: 15px;
+}
+#team .fa-facebook:hover {
+    background-color: #3d5b99;
+    color: #fff;
+}
+
+#team .fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    border: 1px solid #00aced;
+    color: #00aced;
+    font-size: 15px;
+}
+#team .fa-twitter:hover {
+    background-color: #00aced;
+    color: #fff;
+}
+
+#team .fa-google-plus {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    border: 1px solid #e25714;
+    color: #e25714;
+    font-size: 15px;
+}
+#team .fa-google-plus:hover {
+    background-color: #e25714;
+    color: #fff;
+}

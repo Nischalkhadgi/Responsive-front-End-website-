@@ -1,0 +1,130 @@
+/* main section padding  */
+#work{
+    padding-top: 60px;
+
+}
+
+/*  Header Components Styling   */
+#work-header h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #333;
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#work-header h3{
+  font-size: 24px;
+  font-family: 'Lato', sans-serif;
+  line-height: 1;
+  font-weight: 300;
+  color: #777;
+}
+
+#work .bottom-line{
+    width: 40px;
+    height: 2px;
+    margin: 20px auto 50px auto;
+    background-color: #1ABC9C;
+}
+
+
+
+
+/*   Work Content    */
+
+/*Image GrayScale*/
+.work-outer img{
+    filter: grayscale(100%);
+    transition: filter 0.2s ease;
+}
+
+
+.work-outer{
+    width: 25%;
+    overflow: hidden;
+    display: inline-block;
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+
+/*  Removing default margin  */
+.work-content-footer h3,p{
+    margin: 0;
+    color: #fff;
+}
+
+.work-content-footer{
+  background-color: #fff;
+  padding-top: 19px;
+  padding-bottom: 15px;
+  position: absolute;
+  width: 100%;
+}
+
+.work-content-footer h3{
+    font-size:  16px;
+    margin:0;
+    margin-bottom: 4px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #444444;
+    font-weight: 700;
+}
+
+.work-content-footer p{
+    font-family: 'Raleway', sans-serif;
+    font-size:  14px;
+    color: #bebebe;
+    font-weight: 700;
+
+}
+
+
+
+
+/*  Hover Effect  */
+.work-outer:hover .work-inner{
+      transform: translate3d(0px, -75px,0px);
+}
+
+.work-inner{
+    transition: all .5s ease;
+}
+
+.work-outer:hover img{
+    filter: none;
+}
+
+.work-content-footer h3:hover{
+  color: #1ABC9C;
+}
+
+.work-content-footer p:hover{
+  color: #888;
+}
+
+
+
+#work-bottom-content{
+  animation-delay: .1s;
+  animation-duration: 1s;
+}
+
+#work .container-fluid{
+  padding:0;
+}
+
+#work .col-md-12{
+  padding:0;
+}
+
+
+/*  Inorder to remove bottom left and right scroll  */
+#work .row{
+  margin: 0;
+}

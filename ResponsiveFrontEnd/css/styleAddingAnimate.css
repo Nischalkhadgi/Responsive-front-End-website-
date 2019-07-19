@@ -1,0 +1,137 @@
+#home{
+  animation-delay: .1s;
+  animation-duration: 1s;
+}
+
+
+/*  About  */
+
+#about-header{
+  animation-delay: .1s;
+  animation-duration: 1s;
+}
+
+
+#about-content{
+  animation-delay: .6s;
+  animation-duration: 1s;
+}
+
+
+/* Stats Section */
+#stats-1{
+    animation-delay: .5s;
+    animation-duration: .9s;
+}
+
+#stats-2{
+    animation-delay: .65s;
+    animation-duration: .9s;
+}
+
+#stats-3{
+    animation-delay: .8s;
+    animation-duration: .9s;
+}
+
+#stats-4{
+    animation-delay: .95s;
+    animation-duration: .9s;
+}
+
+
+
+
+/*  Work Section  */
+
+/*
+#work-1{
+  animation-delay: .2s;
+  animation-duration: .7s;
+}
+
+#work-2{
+  animation-delay: .8s;
+  animation-duration: .7s;
+}
+
+#work-3{
+  animation-delay: 1.5s;
+  animation-duration: .7s;
+}
+
+#work-4{
+  animation-delay: 2.2s;
+  animation-duration: .7s;
+}
+
+#work-8{
+  animation-delay: .2s;
+  animation-duration: .7s;
+}
+
+#work-7{
+  animation-delay: .8s;
+  animation-duration: .7s;
+}
+
+#work-6{
+  animation-delay: 1.5s;
+  animation-duration: .7s;
+}
+
+#work-5{
+  animation-delay: 2.2s;
+  animation-duration: .7s;
+}
+*/
+
+
+
+/*  Services  */
+#service-1{
+  animation-delay: .7s;
+  animation-duration: .7s;
+}
+
+#service-2{
+  animation-delay: .9s;
+  animation-duration: .7s;
+}
+
+#service-3{
+  animation-delay: 1.1s;
+  animation-duration: .7s;
+}
+
+
+#service-4{
+  animation-delay: .7s;
+  animation-duration: .7s;
+}
+
+#service-5{
+  animation-delay: .9s;
+  animation-duration: .7s;
+}
+
+#service-6{
+  animation-delay: 1.1s;
+  animation-duration: .7s;
+}
+
+
+#service-7{
+  animation-delay: .7s;
+  animation-duration: .7s;
+}
+
+#service-8{
+  animation-delay: .9s;
+  animation-duration: .7s;
+}
+
+#service-9{
+  animation-delay: 1.1s;
+  animation-duration: .7s;
+}

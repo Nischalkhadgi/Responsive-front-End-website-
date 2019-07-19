@@ -1,0 +1,127 @@
+/*Contacts*/
+body{
+      font-family: 'Raleway', sans-serif;
+}
+footer{
+  background-color: #111;
+  color: #fff;
+  padding-top: 20px;
+  border-top: 5px solid rgba(0, 0, 0,0.1);
+}
+
+
+
+/*Right side contents*/
+
+#contact-left h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#contact-left p{
+    margin-bottom: 30px;
+}
+
+
+/* Putting background image */
+#contact-info{
+    background-image: url("../img/contact/world-map.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+address strong, #phone-fax-email strong{
+      letter-spacing: 1px;
+}
+
+/* social Icons changes */
+.social-list{
+    list-style: none;
+    padding: 0;
+}
+
+.social-list li{
+    display: inline;
+}
+
+
+/* Changing all social icons at once  */
+.social-list .fa-facebook, .social-list .fa-twitter, .social-list .fa-google-plus,.social-list .fa-youtube-play{
+    font-size: 20px;
+    color: #fff;
+    padding:10px 9px;
+}
+
+/*  Social Icons Hover Effects  */
+.social-list .fa-facebook:hover{
+    color: #1ABC9C;
+}
+
+.social-list .fa-twitter:hover{
+    color: #1ABC9C;
+}
+
+.social-list .fa-google-plus:hover{
+    color: #1ABC9C;
+}
+
+.social-list .fa-youtube-play:hover{
+    color: #1ABC9C;
+}
+
+
+
+
+
+
+
+
+/* Contacts right Contents */
+#contact-right h2{
+  font-size: 22px;
+  font-weight: 700;
+  font-family: 'lato', sans-serif;
+  margin-bottom: 15px;
+}
+
+form .form-control{
+    border-radius: 0;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+}
+
+
+.btn-white{
+    text-align: center;
+    padding: 8px 25px;
+    background: #fff;
+    color: #111;
+    font-weight: 500;
+    border-radius: 0;
+    transition: all .5s ease;
+    font-size: 17px;
+}
+
+.btn-white:hover{
+    text-align: center;
+    background: #1ABC9C;
+      color: #fff;
+}
+
+
+
+/* Bottom Contents of Footer */
+
+#footer-bottom{
+    margin-top:25px;
+    background-color: #000;
+    padding: 30px;
+}
+
+#footer-bottom h2{
+    margin: 0;
+    font-size: 13px;
+}

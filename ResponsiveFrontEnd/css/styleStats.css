@@ -1,0 +1,46 @@
+#stats .bottom-line{
+    width: 40px;
+    height: 2px;
+    margin: 20px auto;
+    background-color: #1ABC9C;
+}
+
+.parallax-window {
+    min-height: 370px;
+    background: transparent;
+    width: 100%;
+    padding: 70px 65px;
+
+}
+
+
+/*  Making the inside content vertical align  */
+.stats-cover{
+    display: table;
+
+}
+.stats-cover .container{
+   display: table-cell;
+   vertical-align: middle;
+}
+
+/*  Changing inside Text and font colors  */
+.stats-item{
+  color: #eee;
+   padding: 20px 0;
+}
+
+#stats h2{
+  font-size: 48px;
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+}
+
+#stats p{
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+}

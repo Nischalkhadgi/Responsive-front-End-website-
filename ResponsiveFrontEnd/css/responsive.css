@@ -1,0 +1,509 @@
+/*     Bootstrap Media Queries      */
+
+/*  Large Devices  */
+@media(min-width:1200px){
+
+}
+
+
+
+/*  Medium Devices  */
+@media(min-width:992px) and (max-width:1199px){
+      /* Nav Bar */
+      /*For right and left spaces*/
+      .canvas-nav-wrapper{
+         padding: 0;
+      }
+
+      /* Moving the Link list to left side */
+      .navbar-nav{
+        float: left;
+        /*float: none;
+        text-align: center; */
+      /*  float: none;
+      display: flex;
+    justify-content: center;  */
+
+        /*
+          float:none;
+          margin:0 auto;
+          display: block;
+          text-align: center;  */
+         
+      }
+
+      /* Home */
+      #slide1-top-anim{
+        font-size: 55px;
+        margin-top: 68px;
+      }
+
+      #slide1-bottom-anim{
+          font-size: 22px;
+          margin-top: 12px;
+      }
+
+      #slide2-top-anim{
+        font-size: 55px;
+        margin-top: 68px;
+      }
+
+      #slide2-bottom-anim{
+          font-size: 22px;
+          margin-top: 12px;
+      }
+
+      #slide3-top-anim{
+        font-size: 55px;
+        margin-top: 68px;
+      }
+
+      #slide3-bottom-anim{
+          font-size: 22px;
+          margin-top: 12px;
+      }
+
+
+
+      /* STATS  */
+
+      #stats h2{
+        font-size: 42px;
+      }
+
+      #stats p{
+        font-size: 14px;
+      }
+
+
+
+    /*  Work Section  */
+      .work-outer{
+        width: 33.33%;
+      }
+
+
+
+      /* divider1  */
+      .divider1-inside h2{
+          font-size: 24px;
+      }
+
+      #divider1-span{
+        font-weight: 500;
+      }
+
+      .fa-caret-right{
+        font-size: 22px;
+        margin-left: 8px;
+      }
+
+    /*  Our Team Section  */
+      .team-left-content{
+        width: 200px;
+        padding-left: 15px;
+      }
+
+      .team-left-content img{
+        width: 200px;
+        height: 244.5px;
+
+      }
+
+      .team-right-content{
+        width: 210px;
+        padding-right: 8px;
+      }
+
+
+      /*  divider2   */
+      .divider2-inner h2{
+        font-weight: 600;
+        font-size: 24px;
+      }
+
+
+      /*  Services   */
+      .services-item .fa-icon {
+        height: 65px;
+        width: 65px;
+      }
+
+      .services-item i{
+        font-size: 32px;
+      }
+
+      .services-item p {
+        padding-left: 90px;
+      }
+
+      #services .row{
+        margin: 0; /*  One item was goin down cause of this margin was set to 0 */
+      }
+
+      .services-item h4 {
+        font-size: 15px;
+      }
+}
+
+
+/*  Small Devices  */
+@media(min-width:768px) and (max-width:991px){
+  /* Nav Bar */
+  /*For right and left spaces*/
+  .canvas-nav-wrapper{
+     padding: 0;
+  }
+
+  /* Moving the Link list to left side */
+  .navbar-nav{
+      float: left;
+  }
+
+
+
+        /* Home */
+        #slide1-top-anim{
+          font-size: 48px;
+          margin-top: 58px;
+        }
+
+        #slide1-bottom-anim{
+            font-size: 21px;
+            margin-top: 10px;
+        }
+
+        #slide2-top-anim{
+          font-size: 48px;
+          margin-top: 58px;
+        }
+
+        #slide2-bottom-anim{
+          font-size: 21px;
+          margin-top: 10px;
+        }
+
+        #slide3-top-anim{
+          font-size: 48px;
+          margin-top: 58px;
+        }
+
+        #slide3-bottom-anim{
+          font-size: 21px;
+          margin-top: 10px;
+        }
+
+
+        /*  About   */
+
+        /*Here on about section col-sm-4 is added so that when the screen size is small
+          its column still remain to 3 columns*/
+        #about .col-sm-4{
+          padding-right: 0;
+        }
+
+
+        /* STATS  */
+        .stats-item{
+          color: #eee;
+           padding: 28px 0;
+        }
+
+        .parallax-window {
+            min-height: 370px;
+            background: transparent;
+            width: 100%;
+            padding: 40px 65px;
+
+        }
+
+
+        /*  Work Section  */
+          .work-outer{
+            width: 33.33%;
+          }
+
+
+
+          /* divider1  */
+          .divider1-inside h2{
+              font-size: 21px;
+
+          }
+
+          #divider1-span{
+            font-weight: 500;
+          }
+
+          .fa-caret-right{
+            font-size: 22px;
+            margin-left: 6px;
+          }
+
+
+
+          /*  Our Team Section  */
+            .team-left-content{
+              height: 305.5px;
+              padding: 0 30px 0 30px;
+            }
+
+            .team-left-content img{
+              width: 250px;
+              height: 305.5px;
+
+            }
+
+            .team-right-content{
+             width: 410px;
+            }
+
+
+
+            /*  divider2   */
+            .divider2-inner h2{
+              font-weight: 600;
+              font-size: 21px;
+            }
+
+            /*  Make Add column-sm-6 in services section   */
+
+
+}
+
+/*  Extra Small Devices  */
+@media (max-width:767px){
+  /* Nav Bar */
+  /*For right and left spaces*/
+  .canvas-nav-wrapper{
+     padding: 0;
+  }
+
+  /* Moving the Link list to left side */
+  .navbar-nav{
+      float: left;
+  }
+
+
+          /* Home */
+          #slide1-top-anim{
+            font-size: 42px;
+            margin-top: 58px;
+          }
+
+          #slide1-bottom-anim{
+              font-size: 18px;
+              margin-top: 10px;
+          }
+
+          #slide2-top-anim{
+            font-size: 42px;
+            margin-top: 58px;
+          }
+
+          #slide2-bottom-anim{
+            font-size: 18px;
+            margin-top: 10px;
+          }
+
+          #slide3-top-anim{
+            font-size: 42px;
+            margin-top: 58px;
+          }
+
+          #slide3-bottom-anim{
+            font-size: 18px;
+            margin-top: 10px;
+          }
+
+
+            /*  About   */
+            #about .container p{
+                 max-width: 315px;
+                  margin: auto;
+
+            }
+            #about .col-sm-4{
+              text-align: center;
+              padding-bottom: 35px;
+            }
+
+            #about{
+              padding: 50px 0 40px 0;
+            }
+
+
+
+            /*  Work Section  */
+              .work-outer{
+                width: 50%;
+              }
+
+
+
+              /* divider1  */
+
+              #divider1{
+
+              }
+              .divider1-inside h2{
+                  font-size: 18px;
+                  padding-left: 10px;
+                  padding-right: 10px;
+              }
+
+              #divider1-span{
+                font-weight: 300;
+              }
+
+              .fa-caret-right{
+                font-size: 18px;
+                margin-left: 5px;
+              }
+
+
+
+            /*  Our Team Section  */
+              .team-left-content{
+                width: 410px;
+                height: 501px;
+                float: none;
+                margin-left: auto;
+                margin-right: auto;
+              }
+
+              .team-left-content img{
+                width: 410px;
+                height: 501px;
+              }
+
+              .team-right-content{
+                margin-left: auto;
+                margin-right: auto;
+                float: none;
+                width: 415px;
+                padding: 15px 5px 0 15px;
+              }
+
+
+              /*  divider2   */
+              .divider2-inner h2{
+                padding-left: 10px;
+                padding-right: 10px;
+                font-weight: 500;
+                font-size: 19px;
+              }
+
+
+              /*   Services  */
+              #services .services-item{
+                  max-width: 470px;
+                  margin: auto;
+                  padding-left: 20px;
+                  padding-right: 20px
+              }
+
+}
+
+
+/*  Extra Small Devices  */
+@media (max-width:480px){
+          /* Home */
+          #slide1-top-anim{
+            font-size: 34px;
+            margin-top: 58px;
+            padding-left: 10px;
+            padding-right: 10px;
+          }
+
+          #slide1-bottom-anim{
+              font-size: 17px;
+              margin-top: 10px;
+              padding-left: 10px;
+              padding-right: 10px;
+          }
+
+          #slide2-top-anim{
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 34px;
+            margin-top: 58px;
+          }
+
+          #slide2-bottom-anim{
+            font-size: 17px;
+            margin-top: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+          }
+
+          #slide3-top-anim{
+            font-size: 34px;
+            margin-top: 58px;
+          }
+
+          #slide3-bottom-anim{
+            font-size: 17px;
+            margin-top: 10px;
+
+          }
+
+          /*  Work Section  */
+            .work-outer{
+              width: 100%;
+            }
+
+
+            /*  Team  */
+
+            .team-left-content{
+              height: auto;
+            }
+            .team-left-content img{
+              width: 100% ;
+              height: auto;
+
+
+            }
+
+            #team  .team-left-content{
+                width: 100%;
+                padding: 0;
+
+            }
+
+
+            .team-right-content{
+              width: 100%;
+              padding: 15px 0 0 0;
+            }
+
+
+
+
+            /*   Services  */
+            #services .services-item{
+                max-width: 470px;
+                margin: auto;
+                padding-left: 10px;
+                padding-right: 10px
+            }
+
+
+
+}
+
+
+/*  Extra Small Devices  */
+@media (max-width:320px){
+
+  /*   Services  */
+  #services .services-item{
+      max-width: 300px;
+      margin: auto;
+      padding-left: 2px;
+      padding-right: 2px
+  }
+
+
+}

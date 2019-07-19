@@ -1,0 +1,94 @@
+#h2-color-change{
+  color: #1ABC9C;
+}
+
+#about{
+  padding: 50px 0 85px 0;
+}
+
+#about h2{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+}
+
+#about h3{
+    margin-top: 10px;
+    font-weight: 300;
+    color: #777;
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
+}
+
+#about .bottom-line{
+  width: 40px;
+  height: 2px;
+  margin: 25px auto;
+  background-color:#1ABC9C;
+}
+
+#about-content{
+    padding-top: 20px;
+}
+
+#about-content img{
+    max-width: 97%;
+}
+
+
+#about-content h3{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+}
+
+#about-content h4{
+    font-size: 16px;
+    display: block;
+    margin-top: 5px;
+    color: #888;
+    font-weight: 300;
+    text-transform: none;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+#about-content p{
+    line-height: 1.8;
+    margin: 8px 0 0 0;
+    color: #999;
+    margin-top: 17px;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+  }
+
+/*
+  #about-header{
+      animation-delay: .1s;
+      animation-duration: 1s;
+  }
+
+  #about-content .fadeInLeft{
+    animation-delay: .2s;
+    animation-duration: 1s;
+  }
+
+  #about-content .fadeInRight{
+    animation-delay: .2s;
+    animation-duration: 1s;
+  }
+
+  #about-content .fadeInUp{
+    animation-delay: .2s;
+    animation-duration: 1s;
+  }
+*/

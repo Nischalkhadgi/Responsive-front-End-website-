@@ -1,0 +1,28 @@
+/*  Scroll spy effect  */
+.navbar-nav > li.active > a{
+    color: #34c6d3;
+}
+
+.color-white{
+    color: #fff !important;
+}
+
+
+/*  Back To Top Button  */
+
+#back-to-top{
+  border: 1.4px solid #1fe0ba;
+  font-size: 26px;
+  padding: 1px 14px 3px 14px;
+  border-radius: 0;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #1ABC9C;
+  transition: background-color .5s ease;
+}
+
+#back-to-top:hover{
+    background-color: #1fe0ba;
+    color: #fff;
+}
